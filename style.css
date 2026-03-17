@@ -1,0 +1,65 @@
+/* General page styling */
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to bottom, #e0f7fa, #ffffff);
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+/* Title */
+h1 {
+  color: #00796b;
+  margin-top: 2rem;
+}
+
+/* Input field */
+input {
+  padding: 0.7rem;
+  margin: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  width: 250px;
+  font-size: 1rem;
+}
+
+/* Button */
+button {
+  padding: 0.7rem 1.5rem;
+  background: #00796b;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background: #004d40;
+}
+
+/* Weather result box */
+.weather {
+  margin-top: 2rem;
+  font-size: 1.2rem;
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 1.5rem;
+  display: inline-block;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* Weather headings */
+.weather h2 {
+  margin: 0;
+  color: #00796b;
+}
+
+/* Footer */
+footer {
+  margin-top: 3rem;
+  padding: 1rem;
+  background: #00796b;
+  color: #fff;
+}
